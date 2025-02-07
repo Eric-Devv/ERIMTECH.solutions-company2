@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-cyan: #00f7ff;
+  --neon-pink: #ff00d9;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-[#00f7ff] to-[#ff00d9] bg-clip-text text-transparent;
+  }
+  
+  .glass-panel {
+    @apply bg-gray-900/60 backdrop-blur-lg border border-gray-700/50 rounded-xl;
+  }
+
+  .neon-border {
+    @apply relative;
+    box-shadow: 0 0 10px var(--neon-cyan),
+                inset 0 0 5px var(--neon-pink);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

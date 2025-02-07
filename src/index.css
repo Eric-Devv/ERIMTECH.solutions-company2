@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    color: rgb(235, 233, 233);
+}
+
+h2{
+    color: rgb(217, 214, 214);
+}
+
+h3{
+    color: rgb(234, 234, 234);
+}
