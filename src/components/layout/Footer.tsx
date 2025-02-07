@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold gradient-text mb-4">ERIMTECH</h3>
             <p className="text-gray-400 mb-4">
-              Leading Technology Solutions Provider in Kenya
+              Leading Technology Solutions Provider in Kenya and worldwide
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" className="text-gray-400 hover:text-neon-cyan transition-colors">
@@ -59,13 +59,13 @@ export default function Footer() {
               <li className="flex items-center space-x-2 text-gray-400">
                 <Phone size={16} />
                 <a href="tel:+254700000000" className="hover:text-neon-cyan transition-colors">
-                  +254 700 000 000
+                  +254 725910500
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-gray-400">
                 <Mail size={16} />
                 <a href="mailto:info@erimtech.co.ke" className="hover:text-neon-cyan transition-colors">
-                  info@erimtech.co.ke
+                  brightgainscompany@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2 text-gray-400">

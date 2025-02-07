@@ -39,7 +39,7 @@ export default function About() {
                 <div className="text-neon-cyan mb-4 flex justify-center">
                   {stat.icon}
                 </div>
-                <div className="text-3xl font-bold mb-2 gradient-text">
+                <div className="text-3xl font-bold mb-2  text-gray-300 gradient-text">
                   {stat.value}
                 </div>
                 <div className="text-gray-400">{stat.label}</div>

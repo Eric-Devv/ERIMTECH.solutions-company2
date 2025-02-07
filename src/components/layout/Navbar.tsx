@@ -51,7 +51,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:+254700000000"
+              href="tel:+254725910500"
               className="flex items-center space-x-2 px-4 py-2 rounded-full bg-gradient-to-r from-neon-cyan to-neon-pink text-white font-medium hover:opacity-90 transition-opacity"
             >
               <Phone size={16} />
@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden rounded-lg p-2 hover:bg-gray-800 transition-colors"
+            className="md:hidden rounded-lg p-2 hover:bg-gray-500 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -85,7 +85,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="tel:+254700000000"
+                href="tel:+254725910500"
                 className="flex items-center justify-center space-x-2 px-4 py-2 rounded-full bg-gradient-to-r from-neon-cyan to-neon-pink text-white font-medium hover:opacity-90 transition-opacity"
               >
                 <Phone size={16} />

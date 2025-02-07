@@ -35,14 +35,14 @@ export default function Contact() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: '+254 700 000 000',
-      link: 'tel:+254700000000'
+      details: '+254 725910500',
+      link: 'tel:+254725910500'
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      details: 'info@erimtech.co.ke',
-      link: 'mailto:info@erimtech.co.ke'
+      details: 'brightgainscompany@gmail.com',
+      link: 'mailto:brightgainscompany@gmail.com'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
