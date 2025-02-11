@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Code, Shield, Globe, Cpu, Database, Cloud } from 'lucide-react';
+import { ArrowRight, Code, Shield, Globe, Cpu, Database, Cloud, Palette } from 'lucide-react';
 
 export default function Home() {
   const services = [
@@ -9,9 +9,9 @@ export default function Home() {
       description: 'Custom software solutions tailored to your business needs'
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: 'Cybersecurity',
-      description: 'Protect your digital assets with our security solutions'
+      icon: <Palette className="w-8 h-8" />,
+      title: 'Graphics & UI Design',
+      description: 'Showcase your brand with a mordern adn futuristic designs from our experts'
     },
     {
       icon: <Globe className="w-8 h-8" />,

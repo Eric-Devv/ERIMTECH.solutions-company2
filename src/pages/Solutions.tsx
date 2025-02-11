@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Shield, Globe, Cpu, Database, Cloud, ArrowRight } from 'lucide-react';
+import { Code, Shield, Globe, Cpu, Database, Cloud, ArrowRight, Palette } from 'lucide-react';
 
 export default function Solutions() {
   const solutions = [
@@ -15,14 +15,14 @@ export default function Solutions() {
       ]
     },
     {
-      icon: <Shield className="w-12 h-12" />,
-      title: 'Cybersecurity',
-      description: 'Comprehensive security solutions to protect your digital assets and ensure business continuity.',
+      icon: <Palette className="w-12 h-12" />,
+      title: 'Graphics and UI Design',
+      description: 'Comprehensive design solutions to project your brand and ensure business continuity through identity.',
       features: [
-        'Security Assessments',
-        'Penetration Testing',
-        'Security Monitoring',
-        'Incident Response'
+        'Logo Design',
+        'Poster Design',
+        'Business cards Design',
+        'UI&UX Design'
       ]
     },
     {

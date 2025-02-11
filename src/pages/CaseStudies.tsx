@@ -18,7 +18,7 @@ export default function CaseStudies() {
     {
       title: 'Collage Management System',
       category: 'Healthcare',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+      image: 'https://plus.unsplash.com/premium_photo-1698084059435-a50ddfd69303?q=80&w=1525&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       description: 'Developed an integrated collage management system that improved students care and operational efficiency.'
     }
   ];
