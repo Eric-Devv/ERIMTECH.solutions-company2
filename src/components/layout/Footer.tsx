@@ -8,18 +8,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold gradient-text mb-4">ERIMTECH</h3>
+            <h3 className="text-xl font-bold gradient-text mb-4">ERIMTECH Solutions</h3>
             <p className="text-gray-400 mb-4">
               Leading Technology Solutions Provider in Kenya and worldwide
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="text-gray-400 hover:text-neon-cyan transition-colors">
+              <a href="https://www.facebook.com/share/1A241qMMnS/" className="text-gray-400 hover:text-neon-cyan transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="https://twitter.com" className="text-gray-400 hover:text-neon-cyan transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-neon-cyan transition-colors">
+              <a href="https://www.linkedin.com/in/erimtechsolutions?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-neon-cyan transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/careers" className="text-gray-400 hover:text-neon-cyan transition-colors">
-                  Careers
+                  Jobs
                 </Link>
               </li>
             </ul>

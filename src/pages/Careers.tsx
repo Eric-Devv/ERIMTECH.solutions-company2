@@ -3,18 +3,7 @@ import { Briefcase, MapPin, Clock, Users } from 'lucide-react';
 
 export default function Careers() {
   const jobs = [
-    {
-      title: 'Senior Software Engineer',
-      location: 'Nairobi, Kenya',
-      type: 'Full-time',
-      description: 'We are looking for a Senior Software Engineer to join our team and help build innovative solutions.',
-      requirements: [
-        'Bachelor degree in Computer Science or related field',
-        '5+ years of experience in software development',
-        'Strong knowledge of modern web technologies',
-        'Experience with cloud platforms (AWS, Azure, GCP)'
-      ]
-    },
+    
     {
       title: 'UI/UX Designer',
       location: 'Nairobi, Kenya',

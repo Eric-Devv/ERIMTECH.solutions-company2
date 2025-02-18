@@ -3,8 +3,8 @@ import { Award, Users, Building, Target } from 'lucide-react';
 
 export default function About() {
   const stats = [
-    { icon: <Users />, value: '500+', label: 'Clients Served' },
-    { icon: <Award />, value: '50+', label: 'Awards Won' },
+    { icon: <Users />, value: '100+', label: 'Clients Served' },
+    { icon: <Award />, value: '30+', label: 'Awards Won' },
     { icon: <Building />, value: '10+', label: 'Years Experience' },
     { icon: <Target />, value: '100%', label: 'Client Satisfaction' }
   ];
