@@ -17,10 +17,10 @@ export default function Contact() {
 
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_2soztdn',
+        'template_yyl832e',
         formRef.current,
-        'YOUR_PUBLIC_KEY'
+        'KYnvMhop_aE1bdiq_'
       );
       setSubmitStatus('success');
       formRef.current.reset();
