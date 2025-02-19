@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="bg-gray-800 rounded-lg p-2 hover:bg-gray-600 transition-colors"
+            className="md:hidden bg-gray-800 rounded-lg p-2 hover:bg-gray-600 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
