@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden rounded-lg p-2 hover:bg-gray-500 transition-colors"
+            className="bg-gray-800 rounded-lg p-2 hover:bg-gray-600 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -70,7 +70,7 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden glass-panel mt-4 rounded-lg p-4">
+          <div className="md:hidden glass-panel mt-3 rounded-lg p-4 bg-black bg-opacity-90">
             <div className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <Link
