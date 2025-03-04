@@ -58,13 +58,13 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-gray-400">
                 <Phone size={16} />
-                <a href="tel:+254700000000" className="hover:text-neon-cyan transition-colors">
+                <a href="tel:+254725910500" className="hover:text-neon-cyan transition-colors">
                   +254 725910500
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-gray-400">
                 <Mail size={16} />
-                <a href="mailto:info@erimtech.co.ke" className="hover:text-neon-cyan transition-colors">
+                <a href="mailto:brightgainscompany@gmail.com" className="hover:text-neon-cyan transition-colors">
                   brightgainscompany@gmail.com
                 </a>
               </li>
