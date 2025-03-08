@@ -5,29 +5,28 @@ export default function Careers() {
   const jobs = [
     
     {
-      title: 'UI/UX Designer',
+      title: 'Sales and Marketing Manager',
       location: 'Nairobi, Kenya',
       type: 'Full-time',
-      description: 'Join our design team to create beautiful and intuitive user experiences for our clients.',
+      description: 'Join our sales team to help the organization manage our clients.',
       requirements: [
-        'Bachelor degree in Design or related field',
-        '3+ years of experience in UI/UX design',
-        'Strong portfolio showcasing web and mobile designs',
-        'Proficiency in design tools (Figma, Adobe XD)'
+        'Bachelor degree/diploma in Sales or related field',
+        '2+ years of experience in Sales and marketing',
+        'Willing to work and proficient on time management'
       ]
     },
-    {
-      title: 'DevOps Engineer',
-      location: 'Remote',
-      type: 'Full-time',
-      description: 'Looking for a DevOps Engineer to help streamline our development and deployment processes.',
-      requirements: [
-        'Bachelor degree in Computer Science or related field',
-        '3+ years of DevOps experience',
-        'Experience with CI/CD pipelines',
-        'Knowledge of containerization and orchestration'
-      ]
-    }
+    // {
+    //   title: 'DevOps Engineer',
+    //   location: 'Remote',
+    //   type: 'Full-time',
+    //   description: 'Looking for a DevOps Engineer to help streamline our development and deployment processes.',
+    //   requirements: [
+    //     'Bachelor degree in Computer Science or related field',
+    //     '3+ years of DevOps experience',
+    //     'Experience with CI/CD pipelines',
+    //     'Knowledge of containerization and orchestration'
+    //   ]
+    // }
   ];
 
   return (
